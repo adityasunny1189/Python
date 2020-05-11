@@ -39,3 +39,32 @@ print(_ab90)
 first_name = "Aditya"
 last_name = "Pathak"
 print("Hello Mr {}, {}".format(first_name, last_name))
+
+# (end and sep)
+# Adding Seperator
+print("Aditya", "Pathak", "Web-Developer", "Programmer", sep=' , ')
+
+# Adding End Line char by default \n is there
+print("hello")
+print("world")
+# Adding a new end line char
+# print("Hello" end=';')
+print("world")
+
+# Taking Input from user
+# input() function is used
+# alwys returns a string
+
+b = input()
+print(b)
+print(type(b))
+
+# Typecasting
+# Converting to specific datatype
+c = int(input())
+print(c)
+print(type(c))
+
+d = complex(input())
+print(d)
+print(type(d))
